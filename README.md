@@ -1,15 +1,17 @@
+#Hillary's Inbox: A text analysis of (a subset of) emails sent and received by Hillary Clinton on her private server
+
 ###Project Update
 
 1) Did you meet your first milestone?
 
-Yes - I have completed basic n-gram classification and topoic analysis. I
+Yes - I have completed basic n-gram classification and topic analysis. I
 extracted the relevant data I was looking for (email body text) and classified
 the text into several groups, on which I then ran gensim's lda model. I
 narrowed down on the question of figuring out how interactions differed between
 different groups of people in Hillary's network - friends versus professionals,
 specifically. In addition, I decided to group together the text into emails
-sent by females and males. Notably, my dataset right now only includes emails
-sent to Hillary Clinton, not sent by her. This is due to noticing some gaps in
+sent by females and males just out of interest. Notably, my dataset right now only includes 
+emails sent to Hillary Clinton, not sent by her. This is due to noticing some gaps in
 my dataset that I hope to fill or find out why they're not present.
 
 In addition, I've decided to run sentiment analysis on the email corpus to see
