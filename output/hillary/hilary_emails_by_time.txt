@@ -1,0 +1,169 @@
+TIME COUNTS {0: 24, 1: 8, 2: 2, 3: 14, 4: 9, 5: 45, 6: 116, 7: 204, 8: 152, 9: 105, 10: 132, 11: 92, 12: 102, 13: 106, 14: 69, 15: 91, 16: 111, 17: 109, 18: 95, 19: 91, 20: 78, 21: 104, 22: 106, 23: 28}
+HOUR 0:00
+number of distinct words 203
+top 5 words [u'w', u'Pls', u'print.', u'talk', u'Can']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 2.50% of the time
+The unigram entropy is 7.55 bits
+None
+HOUR 1:00
+number of distinct words 108
+top 5 words [u'w', u'next', u'Judith', u'Amb', u'two']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 4.13% of the time
+The unigram entropy is 6.67 bits
+None
+HOUR 2:00
+number of distinct words 8
+top 5 words [u'Rwwwwqs7', u'w', u'first.', u'discuss', u'dinner']
+Estimated a 2-gram model over words
+'Rwwwwqs7' is the most common word, occurring 12.50% of the time
+The unigram entropy is 3.00 bits
+None
+HOUR 3:00
+number of distinct words 179
+top 5 words [u'w', u'AM', u'What', u'discuss', u'Pls']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 1.96% of the time
+The unigram entropy is 7.39 bits
+None
+HOUR 4:00
+number of distinct words 106
+top 5 words [u'w', u'better.', u'spoke', u'going', u'8']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 5.08% of the time
+The unigram entropy is 6.63 bits
+None
+HOUR 5:00
+number of distinct words 314
+top 5 words [u'Pls', u"I'm", u'Can', u'call', u'AM']
+Estimated a 2-gram model over words
+'Pls' is the most common word, occurring 2.00% of the time
+The unigram entropy is 8.08 bits
+None
+HOUR 6:00
+number of distinct words 1339
+top 5 words [u'w', u'AM', u"I'm", u'call', u'would']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 0.85% of the time
+The unigram entropy is 10.01 bits
+None
+HOUR 7:00
+number of distinct words 1404
+top 5 words [u'w', u'call', u'AM', u'Pls', u'Can']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 1.58% of the time
+The unigram entropy is 9.91 bits
+None
+HOUR 8:00
+number of distinct words 1379
+top 5 words [u'w', u'call', u'Pls', u'Can', u'see']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 1.25% of the time
+The unigram entropy is 9.97 bits
+None
+HOUR 9:00
+number of distinct words 731
+top 5 words [u'call', u'Can', u'w', u'see', u"I'm"]
+Estimated a 2-gram model over words
+'call' is the most common word, occurring 1.55% of the time
+The unigram entropy is 9.20 bits
+None
+HOUR 10:00
+number of distinct words 1266
+top 5 words [u'w', u"I'm", u'AM', u'call', u'Pls']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 1.93% of the time
+The unigram entropy is 9.93 bits
+None
+HOUR 11:00
+number of distinct words 1164
+top 5 words [u'AM', u'The', u'Pls', u'w', u'2009']
+Estimated a 2-gram model over words
+'AM' is the most common word, occurring 0.81% of the time
+The unigram entropy is 9.88 bits
+None
+HOUR 12:00
+number of distinct words 672
+top 5 words [u'w', u'call', u'What', u'Pls', u'PM']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 1.79% of the time
+The unigram entropy is 9.08 bits
+None
+HOUR 13:00
+number of distinct words 851
+top 5 words [u'PM', u'w', u'call', u'Can', u'2009']
+Estimated a 2-gram model over words
+'PM' is the most common word, occurring 1.63% of the time
+The unigram entropy is 9.38 bits
+None
+HOUR 14:00
+number of distinct words 438
+top 5 words [u'w', u'PM', u'2009', u"I'm", u'What']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 1.91% of the time
+The unigram entropy is 8.53 bits
+None
+HOUR 15:00
+number of distinct words 584
+top 5 words [u'PM', u'w', u'call', u"I'd", u'Re:']
+Estimated a 2-gram model over words
+'PM' is the most common word, occurring 1.54% of the time
+The unigram entropy is 8.89 bits
+None
+HOUR 16:00
+number of distinct words 877
+top 5 words [u'Clips', u'Press', u'Strategic', u'Dialogue', u'PM']
+Estimated a 2-gram model over words
+'Clips' is the most common word, occurring 1.35% of the time
+The unigram entropy is 9.36 bits
+None
+HOUR 17:00
+number of distinct words 726
+top 5 words [u'w', u'PM', u'Can', u'Pls', u'Thx.']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 1.47% of the time
+The unigram entropy is 9.13 bits
+None
+HOUR 18:00
+number of distinct words 756
+top 5 words [u'w', u'call', u'Thx.', u'see', u'like']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 1.39% of the time
+The unigram entropy is 9.24 bits
+None
+HOUR 19:00
+number of distinct words 596
+top 5 words [u"I'm", u'Thx.', u'Pls', u'Ok.', u'call']
+Estimated a 2-gram model over words
+'I'm' is the most common word, occurring 1.25% of the time
+The unigram entropy is 8.99 bits
+None
+HOUR 20:00
+number of distinct words 459
+top 5 words [u'w', u'PM', u'Can', u'What', u'talk']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 3.34% of the time
+The unigram entropy is 8.52 bits
+None
+HOUR 21:00
+number of distinct words 623
+top 5 words [u'w', u'Pls', u'PM', u'Can', u'Thx.']
+Estimated a 2-gram model over words
+'w' is the most common word, occurring 2.07% of the time
+The unigram entropy is 8.92 bits
+None
+HOUR 22:00
+number of distinct words 584
+top 5 words [u'print.', u'Pis', u'PM', u'Pls', u"I'm"]
+Estimated a 2-gram model over words
+'print.' is the most common word, occurring 1.49% of the time
+The unigram entropy is 8.85 bits
+None
+HOUR 23:00
+number of distinct words 267
+top 5 words [u'PM', u'Pis', u'print.', u'get', u'talk']
+Estimated a 2-gram model over words
+'PM' is the most common word, occurring 1.28% of the time
+The unigram entropy is 7.97 bits
+None
