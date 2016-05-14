@@ -71,9 +71,9 @@ def main():
     if not args.debug:  # compute PPMI and SVD before writing. if debug is True, just write the count vectors
         points = dimensionality_reduce(points, args.ndims)
         print 'Reduced dimensionality'
-        outfile = 'cluster_input/' + args.textfile+'.tfidf'+'.thresh'+str(args.threshold)
+        outfile = args.textfile+'.tfidf'+'.thresh'+str(args.threshold)
     else:
-        outfile = 'cluster_input/' + args.textfile+'.tfidf'+'.thresh'+str(args.threshold)+'.todebug'
+        outfile = args.textfile+'.tfidf'+'.thresh'+str(args.threshold)+'.todebug'
 
     with open(outfile+'.dims', 'w') as o:
         o.write('\n'.join(terms)+'\n')

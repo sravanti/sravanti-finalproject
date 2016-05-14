@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt  # for plotting
 import codecs  # unicode handling
 import os
 import sys  # for command line arguments
+from nltk.corpus import stopwords
 
 from ngram import NGram
 from utils import normalize, basic_count, length_count, expectation
@@ -22,10 +23,12 @@ def tokenize(filename, casefold=True):
     using NLTK's tokenization functions.
     """
     with codecs.open(filename,'r','utf8') as f:
+      sw = stopwords.words('english')
       text = f.read()
       result = [word_tokenize(s) for s in sent_tokenize(text)]
       if casefold:
         result = [[word.lower() for word in sentence] for sentence in result]
+      result = [[word for word in sentence if word not in sw] for sentence in result]
       return result
       f.close()
 
@@ -111,8 +114,8 @@ class Corpus:
         
         print "Hapax legomena comprise {0:.2%} of the types".format(num_hapaxes(self.word_counts)/self.numtypes)
 
-        self.plot_freq(self.filename+'_freq.png')
-        self.plot_lengths(self.filename+'_lengths.png')
+        #self.plot_freq(self.filename+'_freq.png')
+        #self.plot_lengths(self.filename+'_lengths.png')
 
 if __name__=='__main__':
     filename = sys.argv[1]

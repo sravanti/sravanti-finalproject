@@ -18,6 +18,7 @@ def count_context_vectors(filename, window, freqthresh):
     Return a list consisting of
     1. a list of the m word types with at least freqthresh count, sorted in decreasing order of frequency.
     2. an array with m rows and m+2 columns,
+    3. a dictionary of words and number of times each word appears
     where row i is the vector for the ith word in the above list,
     column i is the ith word used as context (upto m),
     column m is <s> used as context, and column m+1 is </s> used as context.
@@ -25,8 +26,8 @@ def count_context_vectors(filename, window, freqthresh):
 
     text, wordcounts = parsetextfile(filename) # read text and get word frequencies
     threshold_dict = {k: v for k, v in wordcounts.iteritems() if v >= freqthresh}
-    wordtypes = sorted(threshold_dict.items(), key=lambda x: x[1])
-    wordtypes = [w[0] for w in wordtypes]
+    wordtypes_sorted = sorted(threshold_dict.items(), key=lambda x: x[1])
+    wordtypes = [w[0] for w in wordtypes_sorted]
     wordtypes_dict = {k: index for index, k in enumerate(wordtypes)}
 
     matrix = numpy.zeros((len(wordtypes), len(wordtypes) + 2))
@@ -61,8 +62,10 @@ def count_context_vectors(filename, window, freqthresh):
                     matrix[word_index, len(wordtypes)] += 1
                 if endtag:
                     matrix[word_index, len(wordtypes) + 1] += 1
-
-    return [wordtypes, matrix]
+    sorted_words = []
+    for word in wordtypes_sorted:
+      sorted_words.append(word[0] + ', ' + str(word[1]))
+    return [wordtypes, matrix, sorted_words] 
             
 
 def ppmi(vectors):
@@ -102,7 +105,7 @@ def main():
     parser.add_argument('--debug', type=bool, default=False)
     args = parser.parse_args()
 
-    vocab, points = count_context_vectors(args.textfile+'.txt', args.window, args.threshold)
+    vocab, points, vocabFreq = count_context_vectors(args.textfile+'.txt', args.window, args.threshold)
     print 'Estimated count context vectors'
     if not args.debug:  # compute PPMI and SVD before writing. if debug is True, just write the count vectors
         points = ppmi(points)
@@ -116,6 +119,8 @@ def main():
     with open(outfile+'.labels', 'w') as o:
         o.write('\n'.join(vocab)+'\n')
     scipy.savetxt(outfile+'.vecs', points, fmt='%.4e')
+    with open(outfile+'.csv', 'w') as do:
+        do.write('\n'.join(vocabFreq)+'\n')
     print 'Saved to file'
 
     print time.time()-start, 'seconds'

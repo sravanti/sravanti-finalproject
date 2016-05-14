@@ -78,12 +78,11 @@ def main():
     parser.add_argument('--maxiter', type=int, default=100, help='maximum number of k-means iterations')
     args = parser.parse_args()
 
-    #TODO: use os.path instead...
-    points = scipy.loadtxt('cluster_input/' + args.vecfile + '.vecs')
-    labels = codecs.open('cluster_input/' + args.vecfile + '.labels', 'r', 'utf8').read().split()
+    points = scipy.loadtxt(args.vecfile + '.vecs')
+    labels = codecs.open(args.vecfile + '.labels', 'r', 'utf8').read().split()
 
     clusters = kmeans(points, labels, args.k, args.maxiter)
-    outfile = '../output/clusters/' + args.vecfile+'.cluster'+str(args.k)
+    outfile = args.vecfile+'.cluster'+str(args.k)
     with codecs.open(outfile, 'w', 'utf8') as o:
         for c in clusters:
             o.write('CLUSTER '+str(c)+'\n')

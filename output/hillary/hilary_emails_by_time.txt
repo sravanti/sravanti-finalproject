@@ -1,169 +1,410 @@
-TIME COUNTS {0: 24, 1: 8, 2: 2, 3: 14, 4: 9, 5: 45, 6: 116, 7: 204, 8: 152, 9: 105, 10: 132, 11: 92, 12: 102, 13: 106, 14: 69, 15: 91, 16: 111, 17: 109, 18: 95, 19: 91, 20: 78, 21: 104, 22: 106, 23: 28}
+AVERAGE EMAIL LENGTH {0: 10.0, 1: 15.125, 2: 4.0, 3: 14.571428571428571, 4: 13.11111111111111, 5: 8.88888888888889, 6: 17.25, 7: 12.382352941176471, 8: 14.703947368421053, 9: 9.838095238095239, 10: 14.166666666666666, 11: 18.847826086956523, 12: 9.323529411764707, 13: 12.132075471698114, 14: 8.36231884057971, 15: 9.296703296703297, 16: 12.027027027027026, 17: 10.0, 18: 11.347368421052632, 19: 8.813186813186814, 20: 8.064102564102564, 21: 8.846153846153847, 22: 8.245283018867925, 23: 11.178571428571429}
 HOUR 0:00
 number of distinct words 203
-top 5 words [u'w', u'Pls', u'print.', u'talk', u'Can']
+top 5 words [u'w', u'Pls', u'print.', u'talk', u'Can', u'What', u'Abedin', u'Thx.', u'B6', u'Pis']
+Statistics for ../output/hillary/times/0Hour
+44 sentences
+293 word tokens
+181 word types
+1.62 average tokens per type
+6.66 average sentence length
+3.90 average word token length
+4.85 average word type length
+Hapax legomena comprise 76.80% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 2.50% of the time
 The unigram entropy is 7.55 bits
 None
 HOUR 1:00
 number of distinct words 108
-top 5 words [u'w', u'next', u'Judith', u'Amb', u'two']
+top 5 words [u'w', u'next', u'Judith', u'Amb', u'two', u"I'd", u'like', u"Holbrooke's", u'Best,', u'copying']
+Statistics for ../output/hillary/times/1Hour
+18 sentences
+147 word tokens
+99 word types
+1.48 average tokens per type
+8.17 average sentence length
+3.92 average word token length
+4.76 average word type length
+Hapax legomena comprise 78.79% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 4.13% of the time
 The unigram entropy is 6.67 bits
 None
 HOUR 2:00
 number of distinct words 8
-top 5 words [u'Rwwwwqs7', u'w', u'first.', u'discuss', u'dinner']
+top 5 words [u'Rwwwwqs7', u'w', u'first.', u'discuss', u'dinner', u'want', u'Thx.', u'invites']
+Statistics for ../output/hillary/times/2Hour
+2 sentences
+10 word tokens
+9 word types
+1.11 average tokens per type
+5.00 average sentence length
+4.30 average word token length
+4.67 average word type length
+Hapax legomena comprise 88.89% of the types
+None
 Estimated a 2-gram model over words
 'Rwwwwqs7' is the most common word, occurring 12.50% of the time
 The unigram entropy is 3.00 bits
 None
 HOUR 3:00
 number of distinct words 179
-top 5 words [u'w', u'AM', u'What', u'discuss', u'Pls']
+top 5 words [u'w', u'AM', u'What', u'discuss', u'Pls', u"Let's", u'2009', u'email?', u'Happy', u'much']
+Statistics for ../output/hillary/times/3Hour
+28 sentences
+258 word tokens
+173 word types
+1.49 average tokens per type
+9.21 average sentence length
+4.31 average word token length
+5.23 average word type length
+Hapax legomena comprise 82.66% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 1.96% of the time
 The unigram entropy is 7.39 bits
 None
 HOUR 4:00
 number of distinct words 106
-top 5 words [u'w', u'better.', u'spoke', u'going', u'8']
+top 5 words [u'w', u'better.', u'spoke', u'going', u'8', u'No,', u'also', u'told', u'swearing', u'abstain']
+Statistics for ../output/hillary/times/4Hour
+21 sentences
+137 word tokens
+98 word types
+1.40 average tokens per type
+6.52 average sentence length
+4.29 average word token length
+5.32 average word type length
+Hapax legomena comprise 86.73% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 5.08% of the time
 The unigram entropy is 6.63 bits
 None
 HOUR 5:00
 number of distinct words 314
-top 5 words [u'Pls', u"I'm", u'Can', u'call', u'AM']
+top 5 words [u'Pls', u"I'm", u'Can', u'call', u'AM', u'get', u'am.', u'print', u"Let's", u'Re:']
+Statistics for ../output/hillary/times/5Hour
+68 sentences
+474 word tokens
+269 word types
+1.76 average tokens per type
+6.97 average sentence length
+3.96 average word token length
+5.06 average word type length
+Hapax legomena comprise 76.21% of the types
+None
 Estimated a 2-gram model over words
 'Pls' is the most common word, occurring 2.00% of the time
 The unigram entropy is 8.08 bits
 None
 HOUR 6:00
 number of distinct words 1339
-top 5 words [u'w', u'AM', u"I'm", u'call', u'would']
+top 5 words [u'w', u'AM', u"I'm", u'call', u'would', u'2009', u'Can', u'Pls', u'know', u'get']
+Statistics for ../output/hillary/times/6Hour
+262 sentences
+2503 word tokens
+1088 word types
+2.30 average tokens per type
+9.55 average sentence length
+4.67 average word token length
+6.83 average word type length
+Hapax legomena comprise 72.98% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 0.85% of the time
 The unigram entropy is 10.01 bits
 None
 HOUR 7:00
 number of distinct words 1404
-top 5 words [u'w', u'call', u'AM', u'Pls', u'Can']
+top 5 words [u'w', u'call', u'AM', u'Pls', u'Can', u'see', u'get', u'want', u'print.', u"I'm"]
+Statistics for ../output/hillary/times/7Hour
+360 sentences
+2971 word tokens
+1077 word types
+2.76 average tokens per type
+8.25 average sentence length
+4.24 average word token length
+5.86 average word type length
+Hapax legomena comprise 64.90% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 1.58% of the time
 The unigram entropy is 9.91 bits
 None
 HOUR 8:00
 number of distinct words 1379
-top 5 words [u'w', u'call', u'Pls', u'Can', u'see']
+top 5 words [u'w', u'call', u'Pls', u'Can', u'see', u'get', u'AM', u'time', u"I'm", u'print.']
+Statistics for ../output/hillary/times/8Hour
+293 sentences
+2629 word tokens
+1097 word types
+2.40 average tokens per type
+8.97 average sentence length
+4.57 average word token length
+6.19 average word type length
+Hapax legomena comprise 67.73% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 1.25% of the time
 The unigram entropy is 9.97 bits
 None
 HOUR 9:00
 number of distinct words 731
-top 5 words [u'call', u'Can', u'w', u'see', u"I'm"]
+top 5 words [u'call', u'Can', u'w', u'see', u"I'm", u'get', u'Pls', u'Thx.', u'AM', u'sure']
+Statistics for ../output/hillary/times/9Hour
+182 sentences
+1211 word tokens
+574 word types
+2.11 average tokens per type
+6.65 average sentence length
+4.04 average word token length
+5.44 average word type length
+Hapax legomena comprise 70.21% of the types
+None
 Estimated a 2-gram model over words
 'call' is the most common word, occurring 1.55% of the time
 The unigram entropy is 9.20 bits
 None
 HOUR 10:00
 number of distinct words 1266
-top 5 words [u'w', u"I'm", u'AM', u'call', u'Pls']
+top 5 words [u'w', u"I'm", u'AM', u'call', u'Pls', u'Can', u'would', u'see', u'2009', u'get']
+Statistics for ../output/hillary/times/10Hour
+253 sentences
+2265 word tokens
+1007 word types
+2.25 average tokens per type
+8.95 average sentence length
+4.43 average word token length
+6.09 average word type length
+Hapax legomena comprise 71.80% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 1.93% of the time
 The unigram entropy is 9.93 bits
 None
 HOUR 11:00
 number of distinct words 1164
-top 5 words [u'AM', u'The', u'Pls', u'w', u'2009']
+top 5 words [u'AM', u'The', u'Pls', u'w', u'2009', u'Can', u'Thx.', u'British', u'would', u'Re:']
+Statistics for ../output/hillary/times/11Hour
+212 sentences
+2067 word tokens
+973 word types
+2.12 average tokens per type
+9.75 average sentence length
+5.01 average word token length
+6.60 average word type length
+Hapax legomena comprise 69.27% of the types
+None
 Estimated a 2-gram model over words
 'AM' is the most common word, occurring 0.81% of the time
 The unigram entropy is 9.88 bits
 None
 HOUR 12:00
 number of distinct words 672
-top 5 words [u'w', u'call', u'What', u'Pls', u'PM']
+top 5 words [u'w', u'call', u'What', u'Pls', u'PM', u'Can', u'Thx.', u'know', u'me.', u'want']
+Statistics for ../output/hillary/times/12Hour
+167 sentences
+1141 word tokens
+542 word types
+2.11 average tokens per type
+6.83 average sentence length
+4.01 average word token length
+5.47 average word type length
+Hapax legomena comprise 71.22% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 1.79% of the time
 The unigram entropy is 9.08 bits
 None
 HOUR 13:00
 number of distinct words 851
-top 5 words [u'PM', u'w', u'call', u'Can', u'2009']
+top 5 words [u'PM', u'w', u'call', u'Can', u'2009', u'Re:', u'get', u"I'm", u'want', u'see']
+Statistics for ../output/hillary/times/13Hour
+180 sentences
+1581 word tokens
+683 word types
+2.31 average tokens per type
+8.78 average sentence length
+4.20 average word token length
+5.72 average word type length
+Hapax legomena comprise 67.50% of the types
+None
 Estimated a 2-gram model over words
 'PM' is the most common word, occurring 1.63% of the time
 The unigram entropy is 9.38 bits
 None
 HOUR 14:00
 number of distinct words 438
-top 5 words [u'w', u'PM', u'2009', u"I'm", u'What']
+top 5 words [u'w', u'PM', u'2009', u"I'm", u'What', u'need', u'Thx.', u'Pls', u'Re:', u'talk']
+Statistics for ../output/hillary/times/14Hour
+93 sentences
+708 word tokens
+372 word types
+1.90 average tokens per type
+7.61 average sentence length
+4.07 average word token length
+5.42 average word type length
+Hapax legomena comprise 76.61% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 1.91% of the time
 The unigram entropy is 8.53 bits
 None
 HOUR 15:00
 number of distinct words 584
-top 5 words [u'PM', u'w', u'call', u"I'd", u'Re:']
+top 5 words [u'PM', u'w', u'call', u"I'd", u'Re:', u'like', u'2009', u'Romney', u'Thx.', u'know']
+Statistics for ../output/hillary/times/15Hour
+126 sentences
+1026 word tokens
+491 word types
+2.09 average tokens per type
+8.14 average sentence length
+4.11 average word token length
+5.42 average word type length
+Hapax legomena comprise 70.06% of the types
+None
 Estimated a 2-gram model over words
 'PM' is the most common word, occurring 1.54% of the time
 The unigram entropy is 8.89 bits
 None
 HOUR 16:00
 number of distinct words 877
-top 5 words [u'Clips', u'Press', u'Strategic', u'Dialogue', u'PM']
+top 5 words [u'Clips', u'Press', u'Strategic', u'Dialogue', u'PM', u'call', u'w', u'Re:', u'What', u'Pls']
+Statistics for ../output/hillary/times/16Hour
+184 sentences
+1605 word tokens
+727 word types
+2.21 average tokens per type
+8.72 average sentence length
+4.27 average word token length
+5.55 average word type length
+Hapax legomena comprise 71.11% of the types
+None
 Estimated a 2-gram model over words
 'Clips' is the most common word, occurring 1.35% of the time
 The unigram entropy is 9.36 bits
 None
 HOUR 17:00
 number of distinct words 726
-top 5 words [u'w', u'PM', u'Can', u'Pls', u'Thx.']
+top 5 words [u'w', u'PM', u'Can', u'Pls', u'Thx.', u'print.', u'call', u"I'm", u'Ok.', u'2009']
+Statistics for ../output/hillary/times/17Hour
+167 sentences
+1345 word tokens
+600 word types
+2.24 average tokens per type
+8.05 average sentence length
+4.06 average word token length
+5.57 average word type length
+Hapax legomena comprise 68.67% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 1.47% of the time
 The unigram entropy is 9.13 bits
 None
 HOUR 18:00
 number of distinct words 756
-top 5 words [u'w', u'call', u'Thx.', u'see', u'like']
+top 5 words [u'w', u'call', u'Thx.', u'see', u'like', u"I'm", u'What', u'Also,', u'Pls', u"I'd"]
+Statistics for ../output/hillary/times/18Hour
+176 sentences
+1257 word tokens
+605 word types
+2.08 average tokens per type
+7.14 average sentence length
+4.08 average word token length
+5.50 average word type length
+Hapax legomena comprise 72.89% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 1.39% of the time
 The unigram entropy is 9.24 bits
 None
 HOUR 19:00
 number of distinct words 596
-top 5 words [u"I'm", u'Thx.', u'Pls', u'Ok.', u'call']
+top 5 words [u"I'm", u'Thx.', u'Pls', u'Ok.', u'call', u'w', u'B6', u'tomorrow.', u'me.', u'would']
+Statistics for ../output/hillary/times/19Hour
+150 sentences
+946 word tokens
+485 word types
+1.95 average tokens per type
+6.31 average sentence length
+4.08 average word token length
+5.42 average word type length
+Hapax legomena comprise 73.20% of the types
+None
 Estimated a 2-gram model over words
 'I'm' is the most common word, occurring 1.25% of the time
 The unigram entropy is 8.99 bits
 None
 HOUR 20:00
 number of distinct words 459
-top 5 words [u'w', u'PM', u'Can', u'What', u'talk']
+top 5 words [u'w', u'PM', u'Can', u'What', u'talk', u'2010', u'Fw:', u'Re:', u'call', u'Thx.']
+Statistics for ../output/hillary/times/20Hour
+106 sentences
+755 word tokens
+383 word types
+1.97 average tokens per type
+7.12 average sentence length
+4.00 average word token length
+5.32 average word type length
+Hapax legomena comprise 75.98% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 3.34% of the time
 The unigram entropy is 8.52 bits
 None
 HOUR 21:00
 number of distinct words 623
-top 5 words [u'w', u'Pls', u'PM', u'Can', u'Thx.']
+top 5 words [u'w', u'Pls', u'PM', u'Can', u'Thx.', u'tomorrow', u'know', u'Re:', u'would', u'call']
+Statistics for ../output/hillary/times/21Hour
+164 sentences
+1118 word tokens
+501 word types
+2.23 average tokens per type
+6.82 average sentence length
+3.97 average word token length
+5.38 average word type length
+Hapax legomena comprise 71.06% of the types
+None
 Estimated a 2-gram model over words
 'w' is the most common word, occurring 2.07% of the time
 The unigram entropy is 8.92 bits
 None
 HOUR 22:00
 number of distinct words 584
-top 5 words [u'print.', u'Pis', u'PM', u'Pls', u"I'm"]
+top 5 words [u'print.', u'Pis', u'PM', u'Pls', u"I'm", u'Thx.', u'call', u'know', u'B6', u'Re:']
+Statistics for ../output/hillary/times/22Hour
+154 sentences
+1068 word tokens
+471 word types
+2.27 average tokens per type
+6.94 average sentence length
+4.03 average word token length
+5.36 average word type length
+Hapax legomena comprise 70.06% of the types
+None
 Estimated a 2-gram model over words
 'print.' is the most common word, occurring 1.49% of the time
 The unigram entropy is 8.85 bits
 None
 HOUR 23:00
 number of distinct words 267
-top 5 words [u'PM', u'Pis', u'print.', u'get', u'talk']
+top 5 words [u'PM', u'Pis', u'print.', u'get', u'talk', u'Fw:', u'12,', u'tomorrow.', u'Thx.', u'Ok.']
+Statistics for ../output/hillary/times/23Hour
+39 sentences
+391 word tokens
+245 word types
+1.60 average tokens per type
+10.03 average sentence length
+4.35 average word token length
+5.43 average word type length
+Hapax legomena comprise 76.33% of the types
+None
 Estimated a 2-gram model over words
 'PM' is the most common word, occurring 1.28% of the time
 The unigram entropy is 7.97 bits
 None
+{0: 6, 1: 8, 2: 5, 3: 9, 4: 6, 5: 6, 6: 9, 7: 8, 8: 8, 9: 6, 10: 8, 11: 9, 12: 6, 13: 8, 14: 7, 15: 8, 16: 8, 17: 8, 18: 7, 19: 6, 20: 7, 21: 6, 22: 6, 23: 10}
