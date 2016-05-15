@@ -23,19 +23,18 @@ def filterText(text):
   more = "<hrod17@clintonemail.com> H I UNCLASSIFIED U.S. Department of State Case No. Doc"
   sw += more.split() 
   filteredList = [word for word in text if word not in sw]
-  filteredText = " ".join(filteredList)
+  return " ".join(filteredList)
 
 def getAllSendersEmails():
-   """ Aggregates all emails in dataset"""
   allEmails = getEmailsFromDB('select * from Emails')
+  allEmailsText = ""
+  filename = "allemails.txt"
   for row in allEmails:
-      filename = str(row[0]) + ".txt"
       text = row[EMAIL_TEXT].split()
-      filteredText = filterText(text)
-      
-      with codecs.open(filename, 'w', 'utf-8') as f:
-          f.write(filteredText)
-          f.close()
+      allEmailsText += filterText(text)
+  with codecs.open(filename, 'w', 'utf-8') as f:
+    f.write(allEmailsText)
+    f.close()
 
 def getCategoryEmails(category):
   """ Aggregate emails for all members of a category list sent by Hillary and saves to file """
@@ -86,8 +85,7 @@ def getEmailsAndTimes(senderId):
 
     for row in filteredEmails:
       text = row[EMAIL_TEXT].split()
-      timestamp_field = len(row[TIMESTAMP]) > 0:
-
+      timestamp_field = len(row[TIMESTAMP]) > 0
       if timestamp_field:
         try:
           timestamp = time.strptime(row[TIMESTAMP], '%A, %B %d, %Y %I:%M %p')
@@ -108,7 +106,7 @@ def getEmailsAndTimes(senderId):
     return result_text
       
 def main():
-  pass
+  getAllSendersEmails()
   
 if __name__ == "__main__":
   main()
